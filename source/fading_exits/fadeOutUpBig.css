@@ -1,4 +1,4 @@
-@keyframes fadeOutUpBig {
+@keyframes kaizen-fadeOutUpBig {
   from {
     opacity: 1;
   }
@@ -9,6 +9,6 @@
   }
 }
 
-.fadeOutUpBig {
-  animation-name: fadeOutUpBig;
+.kaizen-fadeOutUpBig {
+  animation-name: kaizen-fadeOutUpBig;
 }

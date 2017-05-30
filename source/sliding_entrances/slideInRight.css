@@ -1,4 +1,4 @@
-@keyframes slideInRight {
+@keyframes kaizen-slideInRight {
   from {
     transform: translate3d(100%, 0, 0);
     visibility: visible;
@@ -9,6 +9,6 @@
   }
 }
 
-.slideInRight {
-  animation-name: slideInRight;
+.kaizen-slideInRight {
+  animation-name: kaizen-slideInRight;
 }

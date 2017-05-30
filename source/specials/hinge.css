@@ -1,4 +1,4 @@
-@keyframes hinge {
+@keyframes kaizen-hinge {
   0% {
     transform-origin: top left;
     animation-timing-function: ease-in-out;
@@ -23,6 +23,6 @@
   }
 }
 
-.hinge {
-  animation-name: hinge;
+.kaizen-hinge {
+  animation-name: kaizen-hinge;
 }

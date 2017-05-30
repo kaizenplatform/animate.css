@@ -1,6 +1,6 @@
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
-@keyframes rollOut {
+@keyframes kaizen-rollOut {
   from {
     opacity: 1;
   }
@@ -11,6 +11,6 @@
   }
 }
 
-.rollOut {
-  animation-name: rollOut;
+.kaizen-rollOut {
+  animation-name: kaizen-rollOut;
 }

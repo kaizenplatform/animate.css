@@ -1,4 +1,4 @@
-#Animate.css [![GitHub release](https://img.shields.io/github/release/daneden/animate.css.svg)](https://github.com/daneden/animate.css/releases) [![Build Status](https://travis-ci.org/WarenGonzaga/animate.css.svg?branch=master)](https://travis-ci.org/WarenGonzaga/animate.css) [![devDependencies Status](https://david-dm.org/WarenGonzaga/animate.css/dev-status.svg)](https://david-dm.org/WarenGonzaga/animate.css?type=dev) [![chat](https://img.shields.io/badge/chat-gitter-green.svg)](https://gitter.im/animate-css/Lobby)
+# Animate.css [![GitHub release](https://img.shields.io/github/release/daneden/animate.css.svg)](https://github.com/daneden/animate.css/releases) [![Build Status](https://travis-ci.org/WarenGonzaga/animate.css.svg?branch=master)](https://travis-ci.org/WarenGonzaga/animate.css) [![devDependencies Status](https://david-dm.org/WarenGonzaga/animate.css/dev-status.svg)](https://david-dm.org/WarenGonzaga/animate.css?type=dev) [![chat](https://img.shields.io/badge/chat-gitter-green.svg)](https://gitter.im/animate-css/Lobby)
 *Just-add-water CSS animation*
 
 `animate.css` is a bunch of cool, fun, and cross-browser animations for you to use in your projects. Great for emphasis, home pages, sliders, and general just-add-water-awesomeness.
@@ -16,7 +16,7 @@ or you can install via npm:
 $ npm install animate.css --save
 ```
 
-##Basic Usage
+## Basic Usage
 1. Include the stylesheet on your document's `<head>`
 
   ```html
@@ -30,96 +30,96 @@ $ npm install animate.css --save
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   </head>
   ```
-2. Add the class `animated` to the element you want to animate.
- You may also want to include the class `infinite` for an infinite loop.
+2. Add the class `kaizen-animated` to the element you want to animate.
+ You may also want to include the class `kaizen-infinite` for an infinite loop.
 
 3. Finally you need to add one of the following classes:
 
-  * `bounce`
-  * `flash`
-  * `pulse`
-  * `rubberBand`
-  * `shake`
-  * `headShake`
-  * `swing`
-  * `tada`
-  * `wobble`
-  * `jello`
-  * `bounceIn`
-  * `bounceInDown`
-  * `bounceInLeft`
-  * `bounceInRight`
-  * `bounceInUp`
-  * `bounceOut`
-  * `bounceOutDown`
-  * `bounceOutLeft`
-  * `bounceOutRight`
-  * `bounceOutUp`
-  * `fadeIn`
-  * `fadeInDown`
-  * `fadeInDownBig`
-  * `fadeInLeft`
-  * `fadeInLeftBig`
-  * `fadeInRight`
-  * `fadeInRightBig`
-  * `fadeInUp`
-  * `fadeInUpBig`
-  * `fadeOut`
-  * `fadeOutDown`
-  * `fadeOutDownBig`
-  * `fadeOutLeft`
-  * `fadeOutLeftBig`
-  * `fadeOutRight`
-  * `fadeOutRightBig`
-  * `fadeOutUp`
-  * `fadeOutUpBig`
-  * `flipInX`
-  * `flipInY`
-  * `flipOutX`
-  * `flipOutY`
-  * `lightSpeedIn`
-  * `lightSpeedOut`
-  * `rotateIn`
-  * `rotateInDownLeft`
-  * `rotateInDownRight`
-  * `rotateInUpLeft`
-  * `rotateInUpRight`
-  * `rotateOut`
-  * `rotateOutDownLeft`
-  * `rotateOutDownRight`
-  * `rotateOutUpLeft`
-  * `rotateOutUpRight`
-  * `hinge`
-  * `jackInTheBox`
-  * `rollIn`
-  * `rollOut`
-  * `zoomIn`
-  * `zoomInDown`
-  * `zoomInLeft`
-  * `zoomInRight`
-  * `zoomInUp`
-  * `zoomOut`
-  * `zoomOutDown`
-  * `zoomOutLeft`
-  * `zoomOutRight`
-  * `zoomOutUp`
-  * `slideInDown`
-  * `slideInLeft`
-  * `slideInRight`
-  * `slideInUp`
-  * `slideOutDown`
-  * `slideOutLeft`
-  * `slideOutRight`
-  * `slideOutUp`
+  * `kaizen-bounce`
+  * `kaizen-flash`
+  * `kaizen-pulse`
+  * `kaizen-rubberBand`
+  * `kaizen-shake`
+  * `kaizen-headShake`
+  * `kaizen-swing`
+  * `kaizen-tada`
+  * `kaizen-wobble`
+  * `kaizen-jello`
+  * `kaizen-bounceIn`
+  * `kaizen-bounceInDown`
+  * `kaizen-bounceInLeft`
+  * `kaizen-bounceInRight`
+  * `kaizen-bounceInUp`
+  * `kaizen-bounceOut`
+  * `kaizen-bounceOutDown`
+  * `kaizen-bounceOutLeft`
+  * `kaizen-bounceOutRight`
+  * `kaizen-bounceOutUp`
+  * `kaizen-fadeIn`
+  * `kaizen-fadeInDown`
+  * `kaizen-fadeInDownBig`
+  * `kaizen-fadeInLeft`
+  * `kaizen-fadeInLeftBig`
+  * `kaizen-fadeInRight`
+  * `kaizen-fadeInRightBig`
+  * `kaizen-fadeInUp`
+  * `kaizen-fadeInUpBig`
+  * `kaizen-fadeOut`
+  * `kaizen-fadeOutDown`
+  * `kaizen-fadeOutDownBig`
+  * `kaizen-fadeOutLeft`
+  * `kaizen-fadeOutLeftBig`
+  * `kaizen-fadeOutRight`
+  * `kaizen-fadeOutRightBig`
+  * `kaizen-fadeOutUp`
+  * `kaizen-fadeOutUpBig`
+  * `kaizen-flipInX`
+  * `kaizen-flipInY`
+  * `kaizen-flipOutX`
+  * `kaizen-flipOutY`
+  * `kaizen-lightSpeedIn`
+  * `kaizen-lightSpeedOut`
+  * `kaizen-rotateIn`
+  * `kaizen-rotateInDownLeft`
+  * `kaizen-rotateInDownRight`
+  * `kaizen-rotateInUpLeft`
+  * `kaizen-rotateInUpRight`
+  * `kaizen-rotateOut`
+  * `kaizen-rotateOutDownLeft`
+  * `kaizen-rotateOutDownRight`
+  * `kaizen-rotateOutUpLeft`
+  * `kaizen-rotateOutUpRight`
+  * `kaizen-hinge`
+  * `kaizen-jackInTheBox`
+  * `kaizen-rollIn`
+  * `kaizen-rollOut`
+  * `kaizen-zoomIn`
+  * `kaizen-zoomInDown`
+  * `kaizen-zoomInLeft`
+  * `kaizen-zoomInRight`
+  * `kaizen-zoomInUp`
+  * `kaizen-zoomOut`
+  * `kaizen-zoomOutDown`
+  * `kaizen-zoomOutLeft`
+  * `kaizen-zoomOutRight`
+  * `kaizen-zoomOutUp`
+  * `kaizen-slideInDown`
+  * `kaizen-slideInLeft`
+  * `kaizen-slideInRight`
+  * `kaizen-slideInUp`
+  * `kaizen-slideOutDown`
+  * `kaizen-slideOutLeft`
+  * `kaizen-slideOutRight`
+  * `kaizen-slideOutUp`
 
 Full example:
 ```html
-<h1 class="animated infinite bounce">Example</h1>
+<h1 class="kaizen-animated kaizen-infinite kaizen-bounce">Example</h1>
 ```
 
 [Check out all the animations here!](https://daneden.github.io/animate.css/)
 
-##Usage
+## Usage
 To use animate.css in your website, simply drop the stylesheet into your document's `<head>`, and add the class `animated` to an element, along with any of the animation names. That's it! You've got a CSS animated element. Super!
 
 ```html
@@ -137,7 +137,7 @@ or use the version hosted by [CDNJS](https://cdnjs.com/libraries/animate.css)
 You can do a whole bunch of other stuff with animate.css when you combine it with jQuery or add your own CSS rules. Dynamically add animations using jQuery with ease:
 
 ```javascript
-$('#yourElement').addClass('animated bounceOutLeft');
+$('#yourElement').addClass('kaizen-animated kaizen-bounceOutLeft');
 ```
 
 You can also detect when an animation ends:
@@ -162,8 +162,8 @@ You can also extend jQuery to add a function that does it all for you:
 $.fn.extend({
     animateCss: function (animationName) {
         var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
-        this.addClass('animated ' + animationName).one(animationEnd, function() {
-            $(this).removeClass('animated ' + animationName);
+        this.addClass('kaizen-animated ' + animationName).one(animationEnd, function() {
+            $(this).removeClass('kaizen-animated ' + animationName);
         });
     }
 });
@@ -172,7 +172,7 @@ $.fn.extend({
 And use it like this:
 
 ```javascript
-$('#yourElement').animateCss('bounce');
+$('#yourElement').animateCss('kaizen-bounce');
 ```
 
 You can change the duration of your animations, add a delay or change the number of times that it plays:

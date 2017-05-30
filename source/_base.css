@@ -1,19 +1,19 @@
-.animated {
+.kaizen-animated {
   animation-duration: 1s;
   animation-fill-mode: both;
 }
 
-.animated.infinite {
+.kaizen-animated.kaizen-infinite {
   animation-iteration-count: infinite;
 }
 
-.animated.hinge {
+.kaizen-animated.kaizen-hinge {
   animation-duration: 2s;
 }
 
-.animated.flipOutX,
-.animated.flipOutY,
-.animated.bounceIn,
-.animated.bounceOut {
+.kaizen-animated.kaizen-flipOutX,
+.kaizen-animated.kaizen-flipOutY,
+.kaizen-animated.kaizen-bounceIn,
+.kaizen-animated.kaizen-bounceOut {
   animation-duration: .75s;
 }

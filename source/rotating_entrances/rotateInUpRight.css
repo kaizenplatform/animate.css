@@ -1,4 +1,4 @@
-@keyframes rotateInUpRight {
+@keyframes kaizen-rotateInUpRight {
   from {
     transform-origin: right bottom;
     transform: rotate3d(0, 0, 1, -90deg);
@@ -12,6 +12,6 @@
   }
 }
 
-.rotateInUpRight {
-  animation-name: rotateInUpRight;
+.kaizen-rotateInUpRight {
+  animation-name: kaizen-rotateInUpRight;
 }

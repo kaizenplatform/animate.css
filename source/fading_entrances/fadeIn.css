@@ -1,4 +1,4 @@
-@keyframes fadeIn {
+@keyframes kaizen-fadeIn {
   from {
     opacity: 0;
   }
@@ -8,6 +8,6 @@
   }
 }
 
-.fadeIn {
-  animation-name: fadeIn;
+.kaizen-fadeIn {
+  animation-name: kaizen-fadeIn;
 }

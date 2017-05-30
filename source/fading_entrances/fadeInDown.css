@@ -1,4 +1,4 @@
-@keyframes fadeInDown {
+@keyframes kaizen-fadeInDown {
   from {
     opacity: 0;
     transform: translate3d(0, -100%, 0);
@@ -10,6 +10,6 @@
   }
 }
 
-.fadeInDown {
-  animation-name: fadeInDown;
+.kaizen-fadeInDown {
+  animation-name: kaizen-fadeInDown;
 }

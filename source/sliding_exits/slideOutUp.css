@@ -1,4 +1,4 @@
-@keyframes slideOutUp {
+@keyframes kaizen-slideOutUp {
   from {
     transform: translate3d(0, 0, 0);
   }
@@ -9,6 +9,6 @@
   }
 }
 
-.slideOutUp {
-  animation-name: slideOutUp;
+.kaizen-slideOutUp {
+  animation-name: kaizen-slideOutUp;
 }

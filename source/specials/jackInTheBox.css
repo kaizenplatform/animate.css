@@ -1,4 +1,4 @@
-@keyframes jackInTheBox {
+@keyframes kaizen-jackInTheBox {
   from {
     opacity: 0;
     transform: scale(0.1) rotate(30deg);
@@ -19,6 +19,6 @@
   }
 }
 
-.jackInTheBox {
-  animation-name: jackInTheBox;
+.kaizen-jackInTheBox {
+  animation-name: kaizen-jackInTheBox;
 }

@@ -1,4 +1,4 @@
-@keyframes slideInLeft {
+@keyframes kaizen-slideInLeft {
   from {
     transform: translate3d(-100%, 0, 0);
     visibility: visible;
@@ -9,6 +9,6 @@
   }
 }
 
-.slideInLeft {
-  animation-name: slideInLeft;
+.kaizen-slideInLeft {
+  animation-name: kaizen-slideInLeft;
 }

@@ -1,4 +1,4 @@
-@keyframes slideInUp {
+@keyframes kaizen-slideInUp {
   from {
     transform: translate3d(0, 100%, 0);
     visibility: visible;
@@ -9,6 +9,6 @@
   }
 }
 
-.slideInUp {
-  animation-name: slideInUp;
+.kaizen-slideInUp {
+  animation-name: kaizen-slideInUp;
 }

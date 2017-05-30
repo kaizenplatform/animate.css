@@ -8,27 +8,27 @@
  * Copyright (c) 2017 Daniel Eden
  */
 
-.animated {
+.kaizen-animated {
   animation-duration: 1s;
   animation-fill-mode: both;
 }
 
-.animated.infinite {
+.kaizen-animated.kaizen-infinite {
   animation-iteration-count: infinite;
 }
 
-.animated.hinge {
+.kaizen-animated.kaizen-hinge {
   animation-duration: 2s;
 }
 
-.animated.flipOutX,
-.animated.flipOutY,
-.animated.bounceIn,
-.animated.bounceOut {
+.kaizen-animated.kaizen-flipOutX,
+.kaizen-animated.kaizen-flipOutY,
+.kaizen-animated.kaizen-bounceIn,
+.kaizen-animated.kaizen-bounceOut {
   animation-duration: .75s;
 }
 
-@keyframes bounce {
+@keyframes kaizen-bounce {
   from, 20%, 53%, 80%, to {
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     transform: translate3d(0,0,0);
@@ -49,12 +49,12 @@
   }
 }
 
-.bounce {
-  animation-name: bounce;
+.kaizen-bounce {
+  animation-name: kaizen-bounce;
   transform-origin: center bottom;
 }
 
-@keyframes flash {
+@keyframes kaizen-flash {
   from, 50%, to {
     opacity: 1;
   }
@@ -64,13 +64,13 @@
   }
 }
 
-.flash {
-  animation-name: flash;
+.kaizen-flash {
+  animation-name: kaizen-flash;
 }
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
-@keyframes pulse {
+@keyframes kaizen-pulse {
   from {
     transform: scale3d(1, 1, 1);
   }
@@ -84,11 +84,11 @@
   }
 }
 
-.pulse {
-  animation-name: pulse;
+.kaizen-pulse {
+  animation-name: kaizen-pulse;
 }
 
-@keyframes rubberBand {
+@keyframes kaizen-rubberBand {
   from {
     transform: scale3d(1, 1, 1);
   }
@@ -118,11 +118,11 @@
   }
 }
 
-.rubberBand {
-  animation-name: rubberBand;
+.kaizen-rubberBand {
+  animation-name: kaizen-rubberBand;
 }
 
-@keyframes shake {
+@keyframes kaizen-shake {
   from, to {
     transform: translate3d(0, 0, 0);
   }
@@ -136,11 +136,11 @@
   }
 }
 
-.shake {
-  animation-name: shake;
+.kaizen-shake {
+  animation-name: kaizen-shake;
 }
 
-@keyframes headShake {
+@keyframes kaizen-headShake {
   0% {
     transform: translateX(0);
   }
@@ -166,12 +166,12 @@
   }
 }
 
-.headShake {
+.kaizen-headShake {
   animation-timing-function: ease-in-out;
-  animation-name: headShake;
+  animation-name: kaizen-headShake;
 }
 
-@keyframes swing {
+@keyframes kaizen-swing {
   20% {
     transform: rotate3d(0, 0, 1, 15deg);
   }
@@ -193,12 +193,12 @@
   }
 }
 
-.swing {
+.kaizen-swing {
   transform-origin: top center;
-  animation-name: swing;
+  animation-name: kaizen-swing;
 }
 
-@keyframes tada {
+@keyframes kaizen-tada {
   from {
     transform: scale3d(1, 1, 1);
   }
@@ -220,13 +220,13 @@
   }
 }
 
-.tada {
-  animation-name: tada;
+.kaizen-tada {
+  animation-name: kaizen-tada;
 }
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
-@keyframes wobble {
+@keyframes kaizen-wobble {
   from {
     transform: none;
   }
@@ -256,11 +256,11 @@
   }
 }
 
-.wobble {
-  animation-name: wobble;
+.kaizen-wobble {
+  animation-name: kaizen-wobble;
 }
 
-@keyframes jello {
+@keyframes kaizen-jello {
   from, 11.1%, to {
     transform: none;
   }
@@ -294,12 +294,12 @@
   }
 }
 
-.jello {
-  animation-name: jello;
+.kaizen-jello {
+  animation-name: kaizen-jello;
   transform-origin: center;
 }
 
-@keyframes bounceIn {
+@keyframes kaizen-bounceIn {
   from, 20%, 40%, 60%, 80%, to {
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
@@ -332,11 +332,11 @@
   }
 }
 
-.bounceIn {
-  animation-name: bounceIn;
+.kaizen-bounceIn {
+  animation-name: kaizen-bounceIn;
 }
 
-@keyframes bounceInDown {
+@keyframes kaizen-bounceInDown {
   from, 60%, 75%, 90%, to {
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
@@ -364,11 +364,11 @@
   }
 }
 
-.bounceInDown {
-  animation-name: bounceInDown;
+.kaizen-bounceInDown {
+  animation-name: kaizen-bounceInDown;
 }
 
-@keyframes bounceInLeft {
+@keyframes kaizen-bounceInLeft {
   from, 60%, 75%, 90%, to {
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
@@ -396,11 +396,11 @@
   }
 }
 
-.bounceInLeft {
-  animation-name: bounceInLeft;
+.kaizen-bounceInLeft {
+  animation-name: kaizen-bounceInLeft;
 }
 
-@keyframes bounceInRight {
+@keyframes kaizen-bounceInRight {
   from, 60%, 75%, 90%, to {
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
@@ -428,11 +428,11 @@
   }
 }
 
-.bounceInRight {
-  animation-name: bounceInRight;
+.kaizen-bounceInRight {
+  animation-name: kaizen-bounceInRight;
 }
 
-@keyframes bounceInUp {
+@keyframes kaizen-bounceInUp {
   from, 60%, 75%, 90%, to {
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
@@ -460,11 +460,11 @@
   }
 }
 
-.bounceInUp {
-  animation-name: bounceInUp;
+.kaizen-bounceInUp {
+  animation-name: kaizen-bounceInUp;
 }
 
-@keyframes bounceOut {
+@keyframes kaizen-bounceOut {
   20% {
     transform: scale3d(.9, .9, .9);
   }
@@ -480,11 +480,11 @@
   }
 }
 
-.bounceOut {
-  animation-name: bounceOut;
+.kaizen-bounceOut {
+  animation-name: kaizen-bounceOut;
 }
 
-@keyframes bounceOutDown {
+@keyframes kaizen-bounceOutDown {
   20% {
     transform: translate3d(0, 10px, 0);
   }
@@ -500,11 +500,11 @@
   }
 }
 
-.bounceOutDown {
-  animation-name: bounceOutDown;
+.kaizen-bounceOutDown {
+  animation-name: kaizen-bounceOutDown;
 }
 
-@keyframes bounceOutLeft {
+@keyframes kaizen-bounceOutLeft {
   20% {
     opacity: 1;
     transform: translate3d(20px, 0, 0);
@@ -516,11 +516,11 @@
   }
 }
 
-.bounceOutLeft {
-  animation-name: bounceOutLeft;
+.kaizen-bounceOutLeft {
+  animation-name: kaizen-bounceOutLeft;
 }
 
-@keyframes bounceOutRight {
+@keyframes kaizen-bounceOutRight {
   20% {
     opacity: 1;
     transform: translate3d(-20px, 0, 0);
@@ -532,11 +532,11 @@
   }
 }
 
-.bounceOutRight {
-  animation-name: bounceOutRight;
+.kaizen-bounceOutRight {
+  animation-name: kaizen-bounceOutRight;
 }
 
-@keyframes bounceOutUp {
+@keyframes kaizen-bounceOutUp {
   20% {
     transform: translate3d(0, -10px, 0);
   }
@@ -552,11 +552,11 @@
   }
 }
 
-.bounceOutUp {
-  animation-name: bounceOutUp;
+.kaizen-bounceOutUp {
+  animation-name: kaizen-bounceOutUp;
 }
 
-@keyframes fadeIn {
+@keyframes kaizen-fadeIn {
   from {
     opacity: 0;
   }
@@ -566,11 +566,11 @@
   }
 }
 
-.fadeIn {
-  animation-name: fadeIn;
+.kaizen-fadeIn {
+  animation-name: kaizen-fadeIn;
 }
 
-@keyframes fadeInDown {
+@keyframes kaizen-fadeInDown {
   from {
     opacity: 0;
     transform: translate3d(0, -100%, 0);
@@ -582,11 +582,11 @@
   }
 }
 
-.fadeInDown {
-  animation-name: fadeInDown;
+.kaizen-fadeInDown {
+  animation-name: kaizen-fadeInDown;
 }
 
-@keyframes fadeInDownBig {
+@keyframes kaizen-fadeInDownBig {
   from {
     opacity: 0;
     transform: translate3d(0, -2000px, 0);
@@ -598,11 +598,11 @@
   }
 }
 
-.fadeInDownBig {
-  animation-name: fadeInDownBig;
+.kaizen-fadeInDownBig {
+  animation-name: kaizen-fadeInDownBig;
 }
 
-@keyframes fadeInLeft {
+@keyframes kaizen-fadeInLeft {
   from {
     opacity: 0;
     transform: translate3d(-100%, 0, 0);
@@ -614,11 +614,11 @@
   }
 }
 
-.fadeInLeft {
-  animation-name: fadeInLeft;
+.kaizen-fadeInLeft {
+  animation-name: kaizen-fadeInLeft;
 }
 
-@keyframes fadeInLeftBig {
+@keyframes kaizen-fadeInLeftBig {
   from {
     opacity: 0;
     transform: translate3d(-2000px, 0, 0);
@@ -630,11 +630,11 @@
   }
 }
 
-.fadeInLeftBig {
-  animation-name: fadeInLeftBig;
+.kaizen-fadeInLeftBig {
+  animation-name: kaizen-fadeInLeftBig;
 }
 
-@keyframes fadeInRight {
+@keyframes kaizen-fadeInRight {
   from {
     opacity: 0;
     transform: translate3d(100%, 0, 0);
@@ -646,11 +646,11 @@
   }
 }
 
-.fadeInRight {
-  animation-name: fadeInRight;
+.kaizen-fadeInRight {
+  animation-name: kaizen-fadeInRight;
 }
 
-@keyframes fadeInRightBig {
+@keyframes kaizen-fadeInRightBig {
   from {
     opacity: 0;
     transform: translate3d(2000px, 0, 0);
@@ -662,11 +662,11 @@
   }
 }
 
-.fadeInRightBig {
-  animation-name: fadeInRightBig;
+.kaizen-fadeInRightBig {
+  animation-name: kaizen-fadeInRightBig;
 }
 
-@keyframes fadeInUp {
+@keyframes kaizen-fadeInUp {
   from {
     opacity: 0;
     transform: translate3d(0, 100%, 0);
@@ -678,11 +678,11 @@
   }
 }
 
-.fadeInUp {
-  animation-name: fadeInUp;
+.kaizen-fadeInUp {
+  animation-name: kaizen-fadeInUp;
 }
 
-@keyframes fadeInUpBig {
+@keyframes kaizen-fadeInUpBig {
   from {
     opacity: 0;
     transform: translate3d(0, 2000px, 0);
@@ -694,11 +694,11 @@
   }
 }
 
-.fadeInUpBig {
-  animation-name: fadeInUpBig;
+.kaizen-fadeInUpBig {
+  animation-name: kaizen-fadeInUpBig;
 }
 
-@keyframes fadeOut {
+@keyframes kaizen-fadeOut {
   from {
     opacity: 1;
   }
@@ -708,11 +708,11 @@
   }
 }
 
-.fadeOut {
-  animation-name: fadeOut;
+.kaizen-fadeOut {
+  animation-name: kaizen-fadeOut;
 }
 
-@keyframes fadeOutDown {
+@keyframes kaizen-fadeOutDown {
   from {
     opacity: 1;
   }
@@ -723,11 +723,11 @@
   }
 }
 
-.fadeOutDown {
-  animation-name: fadeOutDown;
+.kaizen-fadeOutDown {
+  animation-name: kaizen-fadeOutDown;
 }
 
-@keyframes fadeOutDownBig {
+@keyframes kaizen-fadeOutDownBig {
   from {
     opacity: 1;
   }
@@ -738,11 +738,11 @@
   }
 }
 
-.fadeOutDownBig {
-  animation-name: fadeOutDownBig;
+.kaizen-fadeOutDownBig {
+  animation-name: kaizen-fadeOutDownBig;
 }
 
-@keyframes fadeOutLeft {
+@keyframes kaizen-fadeOutLeft {
   from {
     opacity: 1;
   }
@@ -753,11 +753,11 @@
   }
 }
 
-.fadeOutLeft {
-  animation-name: fadeOutLeft;
+.kaizen-fadeOutLeft {
+  animation-name: kaizen-fadeOutLeft;
 }
 
-@keyframes fadeOutLeftBig {
+@keyframes kaizen-fadeOutLeftBig {
   from {
     opacity: 1;
   }
@@ -768,11 +768,11 @@
   }
 }
 
-.fadeOutLeftBig {
-  animation-name: fadeOutLeftBig;
+.kaizen-fadeOutLeftBig {
+  animation-name: kaizen-fadeOutLeftBig;
 }
 
-@keyframes fadeOutRight {
+@keyframes kaizen-fadeOutRight {
   from {
     opacity: 1;
   }
@@ -783,11 +783,11 @@
   }
 }
 
-.fadeOutRight {
-  animation-name: fadeOutRight;
+.kaizen-fadeOutRight {
+  animation-name: kaizen-fadeOutRight;
 }
 
-@keyframes fadeOutRightBig {
+@keyframes kaizen-fadeOutRightBig {
   from {
     opacity: 1;
   }
@@ -798,11 +798,11 @@
   }
 }
 
-.fadeOutRightBig {
-  animation-name: fadeOutRightBig;
+.kaizen-fadeOutRightBig {
+  animation-name: kaizen-fadeOutRightBig;
 }
 
-@keyframes fadeOutUp {
+@keyframes kaizen-fadeOutUp {
   from {
     opacity: 1;
   }
@@ -813,11 +813,11 @@
   }
 }
 
-.fadeOutUp {
-  animation-name: fadeOutUp;
+.kaizen-fadeOutUp {
+  animation-name: kaizen-fadeOutUp;
 }
 
-@keyframes fadeOutUpBig {
+@keyframes kaizen-fadeOutUpBig {
   from {
     opacity: 1;
   }
@@ -828,11 +828,11 @@
   }
 }
 
-.fadeOutUpBig {
-  animation-name: fadeOutUpBig;
+.kaizen-fadeOutUpBig {
+  animation-name: kaizen-fadeOutUpBig;
 }
 
-@keyframes flip {
+@keyframes kaizen-flip {
   from {
     transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
     animation-timing-function: ease-out;
@@ -859,13 +859,13 @@
   }
 }
 
-.animated.flip {
+.kaizen-animated.kaizen-flip {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
-  animation-name: flip;
+  animation-name: kaizen-flip;
 }
 
-@keyframes flipInX {
+@keyframes kaizen-flipInX {
   from {
     transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
     animation-timing-function: ease-in;
@@ -891,13 +891,13 @@
   }
 }
 
-.flipInX {
+.kaizen-flipInX {
   -webkit-backface-visibility: visible !important;
   backface-visibility: visible !important;
-  animation-name: flipInX;
+  animation-name: kaizen-flipInX;
 }
 
-@keyframes flipInY {
+@keyframes kaizen-flipInY {
   from {
     transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
     animation-timing-function: ease-in;
@@ -923,13 +923,13 @@
   }
 }
 
-.flipInY {
+.kaizen-flipInY {
   -webkit-backface-visibility: visible !important;
   backface-visibility: visible !important;
-  animation-name: flipInY;
+  animation-name: kaizen-flipInY;
 }
 
-@keyframes flipOutX {
+@keyframes kaizen-flipOutX {
   from {
     transform: perspective(400px);
   }
@@ -945,13 +945,13 @@
   }
 }
 
-.flipOutX {
-  animation-name: flipOutX;
+.kaizen-flipOutX {
+  animation-name: kaizen-flipOutX;
   -webkit-backface-visibility: visible !important;
   backface-visibility: visible !important;
 }
 
-@keyframes flipOutY {
+@keyframes kaizen-flipOutY {
   from {
     transform: perspective(400px);
   }
@@ -967,13 +967,13 @@
   }
 }
 
-.flipOutY {
+.kaizen-flipOutY {
   -webkit-backface-visibility: visible !important;
   backface-visibility: visible !important;
-  animation-name: flipOutY;
+  animation-name: kaizen-flipOutY;
 }
 
-@keyframes lightSpeedIn {
+@keyframes kaizen-lightSpeedIn {
   from {
     transform: translate3d(100%, 0, 0) skewX(-30deg);
     opacity: 0;
@@ -995,12 +995,12 @@
   }
 }
 
-.lightSpeedIn {
-  animation-name: lightSpeedIn;
+.kaizen-lightSpeedIn {
+  animation-name: kaizen-lightSpeedIn;
   animation-timing-function: ease-out;
 }
 
-@keyframes lightSpeedOut {
+@keyframes kaizen-lightSpeedOut {
   from {
     opacity: 1;
   }
@@ -1011,12 +1011,12 @@
   }
 }
 
-.lightSpeedOut {
-  animation-name: lightSpeedOut;
+.kaizen-lightSpeedOut {
+  animation-name: kaizen-lightSpeedOut;
   animation-timing-function: ease-in;
 }
 
-@keyframes rotateIn {
+@keyframes kaizen-rotateIn {
   from {
     transform-origin: center;
     transform: rotate3d(0, 0, 1, -200deg);
@@ -1030,11 +1030,11 @@
   }
 }
 
-.rotateIn {
-  animation-name: rotateIn;
+.kaizen-rotateIn {
+  animation-name: kaizen-rotateIn;
 }
 
-@keyframes rotateInDownLeft {
+@keyframes kaizen-rotateInDownLeft {
   from {
     transform-origin: left bottom;
     transform: rotate3d(0, 0, 1, -45deg);
@@ -1048,11 +1048,11 @@
   }
 }
 
-.rotateInDownLeft {
-  animation-name: rotateInDownLeft;
+.kaizen-rotateInDownLeft {
+  animation-name: kaizen-rotateInDownLeft;
 }
 
-@keyframes rotateInDownRight {
+@keyframes kaizen-rotateInDownRight {
   from {
     transform-origin: right bottom;
     transform: rotate3d(0, 0, 1, 45deg);
@@ -1066,11 +1066,11 @@
   }
 }
 
-.rotateInDownRight {
-  animation-name: rotateInDownRight;
+.kaizen-rotateInDownRight {
+  animation-name: kaizen-rotateInDownRight;
 }
 
-@keyframes rotateInUpLeft {
+@keyframes kaizen-rotateInUpLeft {
   from {
     transform-origin: left bottom;
     transform: rotate3d(0, 0, 1, 45deg);
@@ -1084,11 +1084,11 @@
   }
 }
 
-.rotateInUpLeft {
-  animation-name: rotateInUpLeft;
+.kaizen-rotateInUpLeft {
+  animation-name: kaizen-rotateInUpLeft;
 }
 
-@keyframes rotateInUpRight {
+@keyframes kaizen-rotateInUpRight {
   from {
     transform-origin: right bottom;
     transform: rotate3d(0, 0, 1, -90deg);
@@ -1102,11 +1102,11 @@
   }
 }
 
-.rotateInUpRight {
-  animation-name: rotateInUpRight;
+.kaizen-rotateInUpRight {
+  animation-name: kaizen-rotateInUpRight;
 }
 
-@keyframes rotateOut {
+@keyframes kaizen-rotateOut {
   from {
     transform-origin: center;
     opacity: 1;
@@ -1119,11 +1119,11 @@
   }
 }
 
-.rotateOut {
-  animation-name: rotateOut;
+.kaizen-rotateOut {
+  animation-name: kaizen-rotateOut;
 }
 
-@keyframes rotateOutDownLeft {
+@keyframes kaizen-rotateOutDownLeft {
   from {
     transform-origin: left bottom;
     opacity: 1;
@@ -1136,11 +1136,11 @@
   }
 }
 
-.rotateOutDownLeft {
-  animation-name: rotateOutDownLeft;
+.kaizen-rotateOutDownLeft {
+  animation-name: kaizen-rotateOutDownLeft;
 }
 
-@keyframes rotateOutDownRight {
+@keyframes kaizen-rotateOutDownRight {
   from {
     transform-origin: right bottom;
     opacity: 1;
@@ -1153,11 +1153,11 @@
   }
 }
 
-.rotateOutDownRight {
-  animation-name: rotateOutDownRight;
+.kaizen-rotateOutDownRight {
+  animation-name: kaizen-rotateOutDownRight;
 }
 
-@keyframes rotateOutUpLeft {
+@keyframes kaizen-rotateOutUpLeft {
   from {
     transform-origin: left bottom;
     opacity: 1;
@@ -1170,11 +1170,11 @@
   }
 }
 
-.rotateOutUpLeft {
-  animation-name: rotateOutUpLeft;
+.kaizen-rotateOutUpLeft {
+  animation-name: kaizen-rotateOutUpLeft;
 }
 
-@keyframes rotateOutUpRight {
+@keyframes kaizen-rotateOutUpRight {
   from {
     transform-origin: right bottom;
     opacity: 1;
@@ -1187,11 +1187,11 @@
   }
 }
 
-.rotateOutUpRight {
-  animation-name: rotateOutUpRight;
+.kaizen-rotateOutUpRight {
+  animation-name: kaizen-rotateOutUpRight;
 }
 
-@keyframes hinge {
+@keyframes kaizen-hinge {
   0% {
     transform-origin: top left;
     animation-timing-function: ease-in-out;
@@ -1216,11 +1216,11 @@
   }
 }
 
-.hinge {
-  animation-name: hinge;
+.kaizen-hinge {
+  animation-name: kaizen-hinge;
 }
 
-@keyframes jackInTheBox {
+@keyframes kaizen-jackInTheBox {
   from {
     opacity: 0;
     transform: scale(0.1) rotate(30deg);
@@ -1241,13 +1241,13 @@
   }
 }
 
-.jackInTheBox {
-  animation-name: jackInTheBox;
+.kaizen-jackInTheBox {
+  animation-name: kaizen-jackInTheBox;
 }
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
-@keyframes rollIn {
+@keyframes kaizen-rollIn {
   from {
     opacity: 0;
     transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
@@ -1259,13 +1259,13 @@
   }
 }
 
-.rollIn {
-  animation-name: rollIn;
+.kaizen-rollIn {
+  animation-name: kaizen-rollIn;
 }
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
-@keyframes rollOut {
+@keyframes kaizen-rollOut {
   from {
     opacity: 1;
   }
@@ -1276,11 +1276,11 @@
   }
 }
 
-.rollOut {
-  animation-name: rollOut;
+.kaizen-rollOut {
+  animation-name: kaizen-rollOut;
 }
 
-@keyframes zoomIn {
+@keyframes kaizen-zoomIn {
   from {
     opacity: 0;
     transform: scale3d(.3, .3, .3);
@@ -1291,11 +1291,11 @@
   }
 }
 
-.zoomIn {
-  animation-name: zoomIn;
+.kaizen-zoomIn {
+  animation-name: kaizen-zoomIn;
 }
 
-@keyframes zoomInDown {
+@keyframes kaizen-zoomInDown {
   from {
     opacity: 0;
     transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
@@ -1309,11 +1309,11 @@
   }
 }
 
-.zoomInDown {
-  animation-name: zoomInDown;
+.kaizen-zoomInDown {
+  animation-name: kaizen-zoomInDown;
 }
 
-@keyframes zoomInLeft {
+@keyframes kaizen-zoomInLeft {
   from {
     opacity: 0;
     transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
@@ -1327,11 +1327,11 @@
   }
 }
 
-.zoomInLeft {
-  animation-name: zoomInLeft;
+.kaizen-zoomInLeft {
+  animation-name: kaizen-zoomInLeft;
 }
 
-@keyframes zoomInRight {
+@keyframes kaizen-zoomInRight {
   from {
     opacity: 0;
     transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
@@ -1345,11 +1345,11 @@
   }
 }
 
-.zoomInRight {
-  animation-name: zoomInRight;
+.kaizen-zoomInRight {
+  animation-name: kaizen-zoomInRight;
 }
 
-@keyframes zoomInUp {
+@keyframes kaizen-zoomInUp {
   from {
     opacity: 0;
     transform: scale3d(.1, .1, .1) translate3d(0, 1000px, 0);
@@ -1363,11 +1363,11 @@
   }
 }
 
-.zoomInUp {
-  animation-name: zoomInUp;
+.kaizen-zoomInUp {
+  animation-name: kaizen-zoomInUp;
 }
 
-@keyframes zoomOut {
+@keyframes kaizen-zoomOut {
   from {
     opacity: 1;
   }
@@ -1382,11 +1382,11 @@
   }
 }
 
-.zoomOut {
-  animation-name: zoomOut;
+.kaizen-zoomOut {
+  animation-name: kaizen-zoomOut;
 }
 
-@keyframes zoomOutDown {
+@keyframes kaizen-zoomOutDown {
   40% {
     opacity: 1;
     transform: scale3d(.475, .475, .475) translate3d(0, -60px, 0);
@@ -1401,11 +1401,11 @@
   }
 }
 
-.zoomOutDown {
-  animation-name: zoomOutDown;
+.kaizen-zoomOutDown {
+  animation-name: kaizen-zoomOutDown;
 }
 
-@keyframes zoomOutLeft {
+@keyframes kaizen-zoomOutLeft {
   40% {
     opacity: 1;
     transform: scale3d(.475, .475, .475) translate3d(42px, 0, 0);
@@ -1418,11 +1418,11 @@
   }
 }
 
-.zoomOutLeft {
-  animation-name: zoomOutLeft;
+.kaizen-zoomOutLeft {
+  animation-name: kaizen-zoomOutLeft;
 }
 
-@keyframes zoomOutRight {
+@keyframes kaizen-zoomOutRight {
   40% {
     opacity: 1;
     transform: scale3d(.475, .475, .475) translate3d(-42px, 0, 0);
@@ -1435,11 +1435,11 @@
   }
 }
 
-.zoomOutRight {
-  animation-name: zoomOutRight;
+.kaizen-zoomOutRight {
+  animation-name: kaizen-zoomOutRight;
 }
 
-@keyframes zoomOutUp {
+@keyframes kaizen-zoomOutUp {
   40% {
     opacity: 1;
     transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
@@ -1454,11 +1454,11 @@
   }
 }
 
-.zoomOutUp {
-  animation-name: zoomOutUp;
+.kaizen-zoomOutUp {
+  animation-name: kaizen-zoomOutUp;
 }
 
-@keyframes slideInDown {
+@keyframes kaizen-slideInDown {
   from {
     transform: translate3d(0, -100%, 0);
     visibility: visible;
@@ -1469,11 +1469,11 @@
   }
 }
 
-.slideInDown {
-  animation-name: slideInDown;
+.kaizen-slideInDown {
+  animation-name: kaizen-slideInDown;
 }
 
-@keyframes slideInLeft {
+@keyframes kaizen-slideInLeft {
   from {
     transform: translate3d(-100%, 0, 0);
     visibility: visible;
@@ -1484,11 +1484,11 @@
   }
 }
 
-.slideInLeft {
-  animation-name: slideInLeft;
+.kaizen-slideInLeft {
+  animation-name: kaizen-slideInLeft;
 }
 
-@keyframes slideInRight {
+@keyframes kaizen-slideInRight {
   from {
     transform: translate3d(100%, 0, 0);
     visibility: visible;
@@ -1499,11 +1499,11 @@
   }
 }
 
-.slideInRight {
-  animation-name: slideInRight;
+.kaizen-slideInRight {
+  animation-name: kaizen-slideInRight;
 }
 
-@keyframes slideInUp {
+@keyframes kaizen-slideInUp {
   from {
     transform: translate3d(0, 100%, 0);
     visibility: visible;
@@ -1514,11 +1514,11 @@
   }
 }
 
-.slideInUp {
-  animation-name: slideInUp;
+.kaizen-slideInUp {
+  animation-name: kaizen-slideInUp;
 }
 
-@keyframes slideOutDown {
+@keyframes kaizen-slideOutDown {
   from {
     transform: translate3d(0, 0, 0);
   }
@@ -1529,11 +1529,11 @@
   }
 }
 
-.slideOutDown {
-  animation-name: slideOutDown;
+.kaizen-slideOutDown {
+  animation-name: kaizen-slideOutDown;
 }
 
-@keyframes slideOutLeft {
+@keyframes kaizen-slideOutLeft {
   from {
     transform: translate3d(0, 0, 0);
   }
@@ -1544,11 +1544,11 @@
   }
 }
 
-.slideOutLeft {
-  animation-name: slideOutLeft;
+.kaizen-slideOutLeft {
+  animation-name: kaizen-slideOutLeft;
 }
 
-@keyframes slideOutRight {
+@keyframes kaizen-slideOutRight {
   from {
     transform: translate3d(0, 0, 0);
   }
@@ -1559,11 +1559,11 @@
   }
 }
 
-.slideOutRight {
-  animation-name: slideOutRight;
+.kaizen-slideOutRight {
+  animation-name: kaizen-slideOutRight;
 }
 
-@keyframes slideOutUp {
+@keyframes kaizen-slideOutUp {
   from {
     transform: translate3d(0, 0, 0);
   }
@@ -1574,6 +1574,6 @@
   }
 }
 
-.slideOutUp {
-  animation-name: slideOutUp;
+.kaizen-slideOutUp {
+  animation-name: kaizen-slideOutUp;
 }

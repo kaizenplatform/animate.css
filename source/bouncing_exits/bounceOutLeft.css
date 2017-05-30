@@ -1,4 +1,4 @@
-@keyframes bounceOutLeft {
+@keyframes kaizen-bounceOutLeft {
   20% {
     opacity: 1;
     transform: translate3d(20px, 0, 0);
@@ -10,6 +10,6 @@
   }
 }
 
-.bounceOutLeft {
-  animation-name: bounceOutLeft;
+.kaizen-bounceOutLeft {
+  animation-name: kaizen-bounceOutLeft;
 }

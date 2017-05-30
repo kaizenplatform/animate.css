@@ -1,4 +1,4 @@
-@keyframes flipOutY {
+@keyframes kaizen-flipOutY {
   from {
     transform: perspective(400px);
   }
@@ -14,7 +14,7 @@
   }
 }
 
-.flipOutY {
+.kaizen-flipOutY {
   backface-visibility: visible !important;
-  animation-name: flipOutY;
+  animation-name: kaizen-flipOutY;
 }

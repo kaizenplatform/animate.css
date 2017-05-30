@@ -1,4 +1,4 @@
-@keyframes zoomOut {
+@keyframes kaizen-zoomOut {
   from {
     opacity: 1;
   }
@@ -13,6 +13,6 @@
   }
 }
 
-.zoomOut {
-  animation-name: zoomOut;
+.kaizen-zoomOut {
+  animation-name: kaizen-zoomOut;
 }

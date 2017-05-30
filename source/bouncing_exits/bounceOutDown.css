@@ -1,4 +1,4 @@
-@keyframes bounceOutDown {
+@keyframes kaizen-bounceOutDown {
   20% {
     transform: translate3d(0, 10px, 0);
   }
@@ -14,6 +14,6 @@
   }
 }
 
-.bounceOutDown {
-  animation-name: bounceOutDown;
+.kaizen-bounceOutDown {
+  animation-name: kaizen-bounceOutDown;
 }

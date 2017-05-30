@@ -1,4 +1,4 @@
-@keyframes swing {
+@keyframes kaizen-swing {
   20% {
     transform: rotate3d(0, 0, 1, 15deg);
   }
@@ -20,7 +20,7 @@
   }
 }
 
-.swing {
+.kaizen-swing {
   transform-origin: top center;
-  animation-name: swing;
+  animation-name: kaizen-swing;
 }

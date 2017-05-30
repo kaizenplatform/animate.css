@@ -1,4 +1,4 @@
-@keyframes rotateIn {
+@keyframes kaizen-rotateIn {
   from {
     transform-origin: center;
     transform: rotate3d(0, 0, 1, -200deg);
@@ -12,6 +12,6 @@
   }
 }
 
-.rotateIn {
-  animation-name: rotateIn;
+.kaizen-rotateIn {
+  animation-name: kaizen-rotateIn;
 }

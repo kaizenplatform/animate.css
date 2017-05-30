@@ -1,4 +1,4 @@
-@keyframes zoomIn {
+@keyframes kaizen-zoomIn {
   from {
     opacity: 0;
     transform: scale3d(.3, .3, .3);
@@ -9,6 +9,6 @@
   }
 }
 
-.zoomIn {
-  animation-name: zoomIn;
+.kaizen-zoomIn {
+  animation-name: kaizen-zoomIn;
 }

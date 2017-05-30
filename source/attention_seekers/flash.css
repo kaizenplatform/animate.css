@@ -1,4 +1,4 @@
-@keyframes flash {
+@keyframes kaizen-flash {
   from, 50%, to {
     opacity: 1;
   }
@@ -8,6 +8,6 @@
   }
 }
 
-.flash {
-  animation-name: flash;
+.kaizen-flash {
+  animation-name: kaizen-flash;
 }
