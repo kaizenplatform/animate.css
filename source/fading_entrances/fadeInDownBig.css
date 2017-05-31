@@ -1,4 +1,4 @@
-@keyframes kaizen-fadeInDownBig {
+@keyframes kz-fadeInDownBig {
   from {
     opacity: 0;
     transform: translate3d(0, -2000px, 0);
@@ -10,6 +10,6 @@
   }
 }
 
-.kaizen-fadeInDownBig {
-  animation-name: kaizen-fadeInDownBig;
+.kz-fadeInDownBig {
+  animation-name: kz-fadeInDownBig;
 }

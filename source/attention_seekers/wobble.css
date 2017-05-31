@@ -1,6 +1,6 @@
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
-@keyframes kaizen-wobble {
+@keyframes kz-wobble {
   from {
     transform: none;
   }
@@ -30,6 +30,6 @@
   }
 }
 
-.kaizen-wobble {
-  animation-name: kaizen-wobble;
+.kz-wobble {
+  animation-name: kz-wobble;
 }

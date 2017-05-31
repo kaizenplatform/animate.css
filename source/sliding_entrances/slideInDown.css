@@ -1,4 +1,4 @@
-@keyframes kaizen-slideInDown {
+@keyframes kz-slideInDown {
   from {
     transform: translate3d(0, -100%, 0);
     visibility: visible;
@@ -9,6 +9,6 @@
   }
 }
 
-.kaizen-slideInDown {
-  animation-name: kaizen-slideInDown;
+.kz-slideInDown {
+  animation-name: kz-slideInDown;
 }

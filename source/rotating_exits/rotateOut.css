@@ -1,4 +1,4 @@
-@keyframes kaizen-rotateOut {
+@keyframes kz-rotateOut {
   from {
     transform-origin: center;
     opacity: 1;
@@ -11,6 +11,6 @@
   }
 }
 
-.kaizen-rotateOut {
-  animation-name: kaizen-rotateOut;
+.kz-rotateOut {
+  animation-name: kz-rotateOut;
 }

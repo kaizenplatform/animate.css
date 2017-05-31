@@ -1,4 +1,4 @@
-@keyframes kaizen-rotateOutUpRight {
+@keyframes kz-rotateOutUpRight {
   from {
     transform-origin: right bottom;
     opacity: 1;
@@ -11,6 +11,6 @@
   }
 }
 
-.kaizen-rotateOutUpRight {
-  animation-name: kaizen-rotateOutUpRight;
+.kz-rotateOutUpRight {
+  animation-name: kz-rotateOutUpRight;
 }

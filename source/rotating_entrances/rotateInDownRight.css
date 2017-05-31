@@ -1,4 +1,4 @@
-@keyframes kaizen-rotateInDownRight {
+@keyframes kz-rotateInDownRight {
   from {
     transform-origin: right bottom;
     transform: rotate3d(0, 0, 1, 45deg);
@@ -12,6 +12,6 @@
   }
 }
 
-.kaizen-rotateInDownRight {
-  animation-name: kaizen-rotateInDownRight;
+.kz-rotateInDownRight {
+  animation-name: kz-rotateInDownRight;
 }

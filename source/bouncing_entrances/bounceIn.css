@@ -1,4 +1,4 @@
-@keyframes kaizen-bounceIn {
+@keyframes kz-bounceIn {
   from, 20%, 40%, 60%, 80%, to {
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
@@ -31,6 +31,6 @@
   }
 }
 
-.kaizen-bounceIn {
-  animation-name: kaizen-bounceIn;
+.kz-bounceIn {
+  animation-name: kz-bounceIn;
 }

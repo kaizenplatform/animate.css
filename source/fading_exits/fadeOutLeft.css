@@ -1,4 +1,4 @@
-@keyframes kaizen-fadeOutLeft {
+@keyframes kz-fadeOutLeft {
   from {
     opacity: 1;
   }
@@ -9,6 +9,6 @@
   }
 }
 
-.kaizen-fadeOutLeft {
-  animation-name: kaizen-fadeOutLeft;
+.kz-fadeOutLeft {
+  animation-name: kz-fadeOutLeft;
 }

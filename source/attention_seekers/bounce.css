@@ -1,4 +1,4 @@
-@keyframes kaizen-bounce {
+@keyframes kz-bounce {
   from, 20%, 53%, 80%, to {
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     transform: translate3d(0,0,0);
@@ -19,7 +19,7 @@
   }
 }
 
-.kaizen-bounce {
-  animation-name: kaizen-bounce;
+.kz-bounce {
+  animation-name: kz-bounce;
   transform-origin: center bottom;
 }

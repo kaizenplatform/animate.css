@@ -1,6 +1,6 @@
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
-@keyframes kaizen-pulse {
+@keyframes kz-pulse {
   from {
     transform: scale3d(1, 1, 1);
   }
@@ -14,6 +14,6 @@
   }
 }
 
-.kaizen-pulse {
-  animation-name: kaizen-pulse;
+.kz-pulse {
+  animation-name: kz-pulse;
 }

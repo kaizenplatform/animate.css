@@ -30,91 +30,91 @@ $ npm install animate.css --save
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   </head>
   ```
-2. Add the class `kaizen-animated` to the element you want to animate.
- You may also want to include the class `kaizen-infinite` for an infinite loop.
+2. Add the class `kz-animated` to the element you want to animate.
+ You may also want to include the class `kz-infinite` for an infinite loop.
 
 3. Finally you need to add one of the following classes:
 
-  * `kaizen-bounce`
-  * `kaizen-flash`
-  * `kaizen-pulse`
-  * `kaizen-rubberBand`
-  * `kaizen-shake`
-  * `kaizen-headShake`
-  * `kaizen-swing`
-  * `kaizen-tada`
-  * `kaizen-wobble`
-  * `kaizen-jello`
-  * `kaizen-bounceIn`
-  * `kaizen-bounceInDown`
-  * `kaizen-bounceInLeft`
-  * `kaizen-bounceInRight`
-  * `kaizen-bounceInUp`
-  * `kaizen-bounceOut`
-  * `kaizen-bounceOutDown`
-  * `kaizen-bounceOutLeft`
-  * `kaizen-bounceOutRight`
-  * `kaizen-bounceOutUp`
-  * `kaizen-fadeIn`
-  * `kaizen-fadeInDown`
-  * `kaizen-fadeInDownBig`
-  * `kaizen-fadeInLeft`
-  * `kaizen-fadeInLeftBig`
-  * `kaizen-fadeInRight`
-  * `kaizen-fadeInRightBig`
-  * `kaizen-fadeInUp`
-  * `kaizen-fadeInUpBig`
-  * `kaizen-fadeOut`
-  * `kaizen-fadeOutDown`
-  * `kaizen-fadeOutDownBig`
-  * `kaizen-fadeOutLeft`
-  * `kaizen-fadeOutLeftBig`
-  * `kaizen-fadeOutRight`
-  * `kaizen-fadeOutRightBig`
-  * `kaizen-fadeOutUp`
-  * `kaizen-fadeOutUpBig`
-  * `kaizen-flipInX`
-  * `kaizen-flipInY`
-  * `kaizen-flipOutX`
-  * `kaizen-flipOutY`
-  * `kaizen-lightSpeedIn`
-  * `kaizen-lightSpeedOut`
-  * `kaizen-rotateIn`
-  * `kaizen-rotateInDownLeft`
-  * `kaizen-rotateInDownRight`
-  * `kaizen-rotateInUpLeft`
-  * `kaizen-rotateInUpRight`
-  * `kaizen-rotateOut`
-  * `kaizen-rotateOutDownLeft`
-  * `kaizen-rotateOutDownRight`
-  * `kaizen-rotateOutUpLeft`
-  * `kaizen-rotateOutUpRight`
-  * `kaizen-hinge`
-  * `kaizen-jackInTheBox`
-  * `kaizen-rollIn`
-  * `kaizen-rollOut`
-  * `kaizen-zoomIn`
-  * `kaizen-zoomInDown`
-  * `kaizen-zoomInLeft`
-  * `kaizen-zoomInRight`
-  * `kaizen-zoomInUp`
-  * `kaizen-zoomOut`
-  * `kaizen-zoomOutDown`
-  * `kaizen-zoomOutLeft`
-  * `kaizen-zoomOutRight`
-  * `kaizen-zoomOutUp`
-  * `kaizen-slideInDown`
-  * `kaizen-slideInLeft`
-  * `kaizen-slideInRight`
-  * `kaizen-slideInUp`
-  * `kaizen-slideOutDown`
-  * `kaizen-slideOutLeft`
-  * `kaizen-slideOutRight`
-  * `kaizen-slideOutUp`
+  * `kz-bounce`
+  * `kz-flash`
+  * `kz-pulse`
+  * `kz-rubberBand`
+  * `kz-shake`
+  * `kz-headShake`
+  * `kz-swing`
+  * `kz-tada`
+  * `kz-wobble`
+  * `kz-jello`
+  * `kz-bounceIn`
+  * `kz-bounceInDown`
+  * `kz-bounceInLeft`
+  * `kz-bounceInRight`
+  * `kz-bounceInUp`
+  * `kz-bounceOut`
+  * `kz-bounceOutDown`
+  * `kz-bounceOutLeft`
+  * `kz-bounceOutRight`
+  * `kz-bounceOutUp`
+  * `kz-fadeIn`
+  * `kz-fadeInDown`
+  * `kz-fadeInDownBig`
+  * `kz-fadeInLeft`
+  * `kz-fadeInLeftBig`
+  * `kz-fadeInRight`
+  * `kz-fadeInRightBig`
+  * `kz-fadeInUp`
+  * `kz-fadeInUpBig`
+  * `kz-fadeOut`
+  * `kz-fadeOutDown`
+  * `kz-fadeOutDownBig`
+  * `kz-fadeOutLeft`
+  * `kz-fadeOutLeftBig`
+  * `kz-fadeOutRight`
+  * `kz-fadeOutRightBig`
+  * `kz-fadeOutUp`
+  * `kz-fadeOutUpBig`
+  * `kz-flipInX`
+  * `kz-flipInY`
+  * `kz-flipOutX`
+  * `kz-flipOutY`
+  * `kz-lightSpeedIn`
+  * `kz-lightSpeedOut`
+  * `kz-rotateIn`
+  * `kz-rotateInDownLeft`
+  * `kz-rotateInDownRight`
+  * `kz-rotateInUpLeft`
+  * `kz-rotateInUpRight`
+  * `kz-rotateOut`
+  * `kz-rotateOutDownLeft`
+  * `kz-rotateOutDownRight`
+  * `kz-rotateOutUpLeft`
+  * `kz-rotateOutUpRight`
+  * `kz-hinge`
+  * `kz-jackInTheBox`
+  * `kz-rollIn`
+  * `kz-rollOut`
+  * `kz-zoomIn`
+  * `kz-zoomInDown`
+  * `kz-zoomInLeft`
+  * `kz-zoomInRight`
+  * `kz-zoomInUp`
+  * `kz-zoomOut`
+  * `kz-zoomOutDown`
+  * `kz-zoomOutLeft`
+  * `kz-zoomOutRight`
+  * `kz-zoomOutUp`
+  * `kz-slideInDown`
+  * `kz-slideInLeft`
+  * `kz-slideInRight`
+  * `kz-slideInUp`
+  * `kz-slideOutDown`
+  * `kz-slideOutLeft`
+  * `kz-slideOutRight`
+  * `kz-slideOutUp`
 
 Full example:
 ```html
-<h1 class="kaizen-animated kaizen-infinite kaizen-bounce">Example</h1>
+<h1 class="kz-animated kz-infinite kz-bounce">Example</h1>
 ```
 
 [Check out all the animations here!](https://daneden.github.io/animate.css/)
@@ -137,7 +137,7 @@ or use the version hosted by [CDNJS](https://cdnjs.com/libraries/animate.css)
 You can do a whole bunch of other stuff with animate.css when you combine it with jQuery or add your own CSS rules. Dynamically add animations using jQuery with ease:
 
 ```javascript
-$('#yourElement').addClass('kaizen-animated kaizen-bounceOutLeft');
+$('#yourElement').addClass('kz-animated kz-bounceOutLeft');
 ```
 
 You can also detect when an animation ends:
@@ -162,8 +162,8 @@ You can also extend jQuery to add a function that does it all for you:
 $.fn.extend({
     animateCss: function (animationName) {
         var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
-        this.addClass('kaizen-animated ' + animationName).one(animationEnd, function() {
-            $(this).removeClass('kaizen-animated ' + animationName);
+        this.addClass('kz-animated ' + animationName).one(animationEnd, function() {
+            $(this).removeClass('kz-animated ' + animationName);
         });
     }
 });
@@ -172,7 +172,7 @@ $.fn.extend({
 And use it like this:
 
 ```javascript
-$('#yourElement').animateCss('kaizen-bounce');
+$('#yourElement').animateCss('kz-bounce');
 ```
 
 You can change the duration of your animations, add a delay or change the number of times that it plays:

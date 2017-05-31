@@ -1,4 +1,4 @@
-@keyframes kaizen-shake {
+@keyframes kz-shake {
   from, to {
     transform: translate3d(0, 0, 0);
   }
@@ -12,6 +12,6 @@
   }
 }
 
-.kaizen-shake {
-  animation-name: kaizen-shake;
+.kz-shake {
+  animation-name: kz-shake;
 }

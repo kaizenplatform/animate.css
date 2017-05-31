@@ -1,4 +1,4 @@
-@keyframes kaizen-zoomOutDown {
+@keyframes kz-zoomOutDown {
   40% {
     opacity: 1;
     transform: scale3d(.475, .475, .475) translate3d(0, -60px, 0);
@@ -13,6 +13,6 @@
   }
 }
 
-.kaizen-zoomOutDown {
-  animation-name: kaizen-zoomOutDown;
+.kz-zoomOutDown {
+  animation-name: kz-zoomOutDown;
 }

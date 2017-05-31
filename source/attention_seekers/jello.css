@@ -1,4 +1,4 @@
-@keyframes kaizen-jello {
+@keyframes kz-jello {
   from, 11.1%, to {
     transform: none;
   }
@@ -32,7 +32,7 @@
   }
 }
 
-.kaizen-jello {
-  animation-name: kaizen-jello;
+.kz-jello {
+  animation-name: kz-jello;
   transform-origin: center;
 }

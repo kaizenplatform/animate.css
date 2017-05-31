@@ -1,4 +1,4 @@
-@keyframes kaizen-flipOutX {
+@keyframes kz-flipOutX {
   from {
     transform: perspective(400px);
   }
@@ -14,7 +14,7 @@
   }
 }
 
-.kaizen-flipOutX {
-  animation-name: kaizen-flipOutX;
+.kz-flipOutX {
+  animation-name: kz-flipOutX;
   backface-visibility: visible !important;
 }

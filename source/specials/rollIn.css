@@ -1,6 +1,6 @@
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
-@keyframes kaizen-rollIn {
+@keyframes kz-rollIn {
   from {
     opacity: 0;
     transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
@@ -12,6 +12,6 @@
   }
 }
 
-.kaizen-rollIn {
-  animation-name: kaizen-rollIn;
+.kz-rollIn {
+  animation-name: kz-rollIn;
 }

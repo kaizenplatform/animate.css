@@ -1,4 +1,4 @@
-@keyframes kaizen-flipInY {
+@keyframes kz-flipInY {
   from {
     transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
     animation-timing-function: ease-in;
@@ -24,7 +24,7 @@
   }
 }
 
-.kaizen-flipInY {
+.kz-flipInY {
   backface-visibility: visible !important;
-  animation-name: kaizen-flipInY;
+  animation-name: kz-flipInY;
 }

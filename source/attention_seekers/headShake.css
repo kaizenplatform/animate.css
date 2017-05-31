@@ -1,4 +1,4 @@
-@keyframes kaizen-headShake {
+@keyframes kz-headShake {
   0% {
     transform: translateX(0);
   }
@@ -24,7 +24,7 @@
   }
 }
 
-.kaizen-headShake {
+.kz-headShake {
   animation-timing-function: ease-in-out;
-  animation-name: kaizen-headShake;
+  animation-name: kz-headShake;
 }

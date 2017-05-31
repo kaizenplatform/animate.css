@@ -1,4 +1,4 @@
-@keyframes kaizen-lightSpeedOut {
+@keyframes kz-lightSpeedOut {
   from {
     opacity: 1;
   }
@@ -9,7 +9,7 @@
   }
 }
 
-.kaizen-lightSpeedOut {
-  animation-name: kaizen-lightSpeedOut;
+.kz-lightSpeedOut {
+  animation-name: kz-lightSpeedOut;
   animation-timing-function: ease-in;
 }

@@ -1,4 +1,4 @@
-@keyframes kaizen-rotateOutDownLeft {
+@keyframes kz-rotateOutDownLeft {
   from {
     transform-origin: left bottom;
     opacity: 1;
@@ -11,6 +11,6 @@
   }
 }
 
-.kaizen-rotateOutDownLeft {
-  animation-name: kaizen-rotateOutDownLeft;
+.kz-rotateOutDownLeft {
+  animation-name: kz-rotateOutDownLeft;
 }

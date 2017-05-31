@@ -1,4 +1,4 @@
-@keyframes kaizen-bounceOut {
+@keyframes kz-bounceOut {
   20% {
     transform: scale3d(.9, .9, .9);
   }
@@ -14,6 +14,6 @@
   }
 }
 
-.kaizen-bounceOut {
-  animation-name: kaizen-bounceOut;
+.kz-bounceOut {
+  animation-name: kz-bounceOut;
 }

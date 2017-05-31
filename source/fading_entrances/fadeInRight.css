@@ -1,4 +1,4 @@
-@keyframes kaizen-fadeInRight {
+@keyframes kz-fadeInRight {
   from {
     opacity: 0;
     transform: translate3d(100%, 0, 0);
@@ -10,6 +10,6 @@
   }
 }
 
-.kaizen-fadeInRight {
-  animation-name: kaizen-fadeInRight;
+.kz-fadeInRight {
+  animation-name: kz-fadeInRight;
 }
